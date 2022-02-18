@@ -1,0 +1,13 @@
+Dockerfile
+README.md
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+.pytest_cache
+.env
+.vscode
+examples
+.gitignore
+LICENCE
+README.mkdocs
