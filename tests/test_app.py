@@ -1,11 +1,7 @@
-
-
-from api import app
 from fastapi.testclient import TestClient
 import unittest
-import sys
-from os.path import abspath, dirname, join
-sys.path.insert(1, abspath(join(dirname(dirname(__file__)), 'src')))
+
+from api import app
 
 
 class TestApi(unittest.TestCase):
